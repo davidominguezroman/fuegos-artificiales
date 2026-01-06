@@ -38,8 +38,8 @@ class Program
                     posicion: new Vector2(Width / 2, Height),
                     velocidad: new Vector2(vx, vy),
                     color: new Color(r, g, b, 255),
-                    velRadio: 150.0f,
-                    numParts: 100,
+                    velRadio: 50.0f,
+                    numParts: 50,
                     vida: 200.0f
                 ));
             }

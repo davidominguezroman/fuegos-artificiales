@@ -30,7 +30,7 @@ public class FuegoArtificial(
             // Explotar cuando la velocidad vertical se hace positiva (llegó al punto más alto)
             if (Velocidad.Y >= 0)
             {
-                Explotar(velRadio, numParts, vida);
+                Explotar();
             }
         }
         else
@@ -43,7 +43,7 @@ public class FuegoArtificial(
         }
     }
 
-    private void Explotar(float velRadio, int numParts, float vida)
+    private void Explotar()
     {
         // Crear partículas UNA SOLA VEZ
         for (int i = 0; i < numParts; i++)

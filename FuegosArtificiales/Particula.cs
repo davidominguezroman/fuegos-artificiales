@@ -5,7 +5,7 @@ namespace FuegosArtificiales;
 
 public class Particula
 {
-    private static readonly Vector2 G = new Vector2(0.0f, 30.0f);
+    private static readonly Vector2 G = new Vector2(0.0f, 10.0f);
     private Vector2 _posicion;
     private Vector2 _velocidad;
     private readonly Color _color;
